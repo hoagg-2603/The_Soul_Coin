@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void   Update()
     {
         Move();
         UpdateAnimation();
@@ -48,6 +48,31 @@ public class PlayerController : MonoBehaviour
     {
         bool isRunning = Mathf.Abs(rb.linearVelocity.x) > 0.1f;
         anim.SetBool("isRunning", isRunning);
-        anim.SetBool("isJump", !isGrounded);
+        anim.SetBool("isGrounded", isGrounded);
+        if(Input.GetKeyDown(KeyCode.J))
+        {
+            Attack();
+        }
+        if(Input.GetKeyDown(KeyCode.Space) && !isGrounded)
+        {
+            anim.SetTrigger("Attack_Air");
+            Invoke(nameof(ResetAttackTrigger), 0.5f);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, -10f);
+        }
     }
+
+    private void Attack()
+    {
+        anim.SetTrigger("Attack");
+        Invoke(nameof(ResetAttackTrigger), 0.4f); // Chỉnh theo thời gian animation
+        anim.SetBool("isRunning", false);
+    }
+
+    public void ResetAttackTrigger()
+    {
+        anim.ResetTrigger("Attack");
+    }
+
+
+
 }
