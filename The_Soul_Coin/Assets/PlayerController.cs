@@ -47,9 +47,11 @@ public class PlayerController : MonoBehaviour
     private void UpdateAnimation()
     {
         bool isRunning = Mathf.Abs(rb.linearVelocity.x) > 0.1f;
+        float yVelocity = rb.linearVelocity.y;
         anim.SetBool("isRunning", isRunning);
         anim.SetBool("isGrounded", isGrounded);
-        if(Input.GetKeyDown(KeyCode.J))
+        anim.SetFloat("yVelocity", yVelocity);
+        if (Input.GetKeyDown(KeyCode.J))
         {
             Attack();
         }
@@ -71,6 +73,7 @@ public class PlayerController : MonoBehaviour
     public void ResetAttackTrigger()
     {
         anim.ResetTrigger("Attack");
+        anim.ResetTrigger("Attack_Air");
     }
 
 
