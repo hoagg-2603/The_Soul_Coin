@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\The_Soul_Coin\\The_Soul_Coin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47C82585-E0A5-A596-C814-5AC88913F524}|Assembly-CSharp.csproj|e:\\the_soul_coin\\the_soul_coin\\assets\\bagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47C82585-E0A5-A596-C814-5AC88913F524}|Assembly-CSharp.csproj|solutionrelative:assets\\bagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47C82585-E0A5-A596-C814-5AC88913F524}|Assembly-CSharp.csproj|e:\\the_soul_coin\\the_soul_coin\\assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47C82585-E0A5-A596-C814-5AC88913F524}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47C82585-E0A5-A596-C814-5AC88913F524}|Assembly-CSharp.csproj|E:\\The_Soul_Coin\\The_Soul_Coin\\assets\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47C82585-E0A5-A596-C814-5AC88913F524}|Assembly-CSharp.csproj|solutionrelative:assets\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47C82585-E0A5-A596-C814-5AC88913F524}|Assembly-CSharp.csproj|E:\\The_Soul_Coin\\The_Soul_Coin\\assets\\backgroundparallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47C82585-E0A5-A596-C814-5AC88913F524}|Assembly-CSharp.csproj|solutionrelative:assets\\backgroundparallax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BagController.cs",
+              "DocumentMoniker": "E:\\The_Soul_Coin\\The_Soul_Coin\\Assets\\BagController.cs",
+              "RelativeDocumentMoniker": "Assets\\BagController.cs",
+              "ToolTip": "E:\\The_Soul_Coin\\The_Soul_Coin\\Assets\\BagController.cs",
+              "RelativeToolTip": "Assets\\BagController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T03:15:35.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerCollision.cs",
+              "DocumentMoniker": "E:\\The_Soul_Coin\\The_Soul_Coin\\Assets\\PlayerCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerCollision.cs",
+              "ToolTip": "E:\\The_Soul_Coin\\The_Soul_Coin\\Assets\\PlayerCollision.cs",
+              "RelativeToolTip": "Assets\\PlayerCollision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:12:52.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BackgroundParallax.cs",
+              "DocumentMoniker": "E:\\The_Soul_Coin\\The_Soul_Coin\\Assets\\BackgroundParallax.cs",
+              "RelativeDocumentMoniker": "Assets\\BackgroundParallax.cs",
+              "ToolTip": "E:\\The_Soul_Coin\\The_Soul_Coin\\Assets\\BackgroundParallax.cs",
+              "RelativeToolTip": "Assets\\BackgroundParallax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:03:06.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "E:\\The_Soul_Coin\\The_Soul_Coin\\Assets\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
               "ToolTip": "E:\\The_Soul_Coin\\The_Soul_Coin\\Assets\\PlayerController.cs",
               "RelativeToolTip": "Assets\\PlayerController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAArwEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T16:52:35.384Z",
+              "WhenOpened": "2025-05-05T08:48:56.413Z",
               "EditorCaption": ""
             }
           ]

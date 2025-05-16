@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - coin
+  - Enemy
+  - bag
   layers:
   - Default
   - TransparentFX
@@ -12,8 +15,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
+  - Head
+  - UI
   - 
   - 
   - 
@@ -40,6 +43,33 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bg
+    uniqueID: 2952963513
+    locked: 0
+  - name: mountain_far
+    uniqueID: 3948231983
+    locked: 0
+  - name: mountains
+    uniqueID: 294026893
+    locked: 0
+  - name: tree
+    uniqueID: 2833045277
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 1071535539
+    locked: 0
+  - name: enemy
+    uniqueID: 623171025
+    locked: 0
+  - name: item
+    uniqueID: 2009452799
+    locked: 0
+  - name: player
+    uniqueID: 4216405501
+    locked: 0
+  - name: UI
+    uniqueID: 3398176515
     locked: 0
   m_RenderingLayers:
   - Default
